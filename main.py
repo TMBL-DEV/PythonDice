@@ -62,8 +62,12 @@ def gameTime():
     print("gg")
 
 
-print("opties: gokken, rollen")
+start = Game()
+print("uw openings worp is " + str(start.rollDice()))
+print("hallo, uw opties: gokken, rollen")
+
 choice = input("Wilt u gokken, of alleen rollen? \n")
+
 
 if choice == "gokken":
     gameTime()
